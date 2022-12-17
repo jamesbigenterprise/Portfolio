@@ -18,15 +18,15 @@ git clone url
 -   Installing the node modules
 
 ```
-yarn install # yarn
+npm install # npm
 npm install # npm
 ```
 
 -   Starting the server
 
 ```
-npm run dev # yarn
-yarn dev # npm
+npm run dev # npm
+npm dev # npm
 ```
 
 ## Making changes

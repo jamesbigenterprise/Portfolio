@@ -8,13 +8,13 @@ git clone url_redirected_to
 
 ### Installing dependencies
 
-If you use yarn then run
+If you use npm then run
 
 ```bash
-yarn install
+npm install
 ```
 
-This project is using yarn so stick to yarn
+This project is using npm so stick to npm
 
 ### Creating a new branch
 
@@ -25,7 +25,7 @@ git checkout -b new-feature
 ### Starting server
 
 ```bash
-yarn dev
+npm dev
 ```
 
 ## 🛡️ License

@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "prepare": "husky install",
-    "pre-commit": "yarn run format && yarn run lint && git add -A .",
+    "pre-commit": "npm run format && npm run lint && git add -A .",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
