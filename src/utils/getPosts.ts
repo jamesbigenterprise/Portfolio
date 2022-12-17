@@ -1,3 +1,4 @@
+/* eslint-disable */
 const getUserDataAndPosts = async (username: string) => {
     const userDataQuery = `
    {
