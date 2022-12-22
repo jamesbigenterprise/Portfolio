@@ -1,4 +1,6 @@
 module.exports = {
+    basePath: '/Portfolio',
+    assetPrefix: '/Portfolio',
     images: {
         unoptimized: true,
         domains: [

@@ -35,7 +35,7 @@
     "projects": [
         {
             "name": "Report Refactoring",
-            "image": "/projects/api.png",
+            "image": "/Portfolio/projects/api.png",
             "about": "This refactoring ticket saved the client $30,000 a year in man hours, removing a 2 minute search that Customer Service Agents would do over 45K times a year. There was a specific report in the client website that lacked important information. To solve the problem I researched different internal API's, I found the best API and added its data to the report. This included working the authentication with a bearer token and creating the data structures in C# to represent the API response. I also added error handling in several locations so the backend would handle the situation, were the API were to be unresponsive.",
             "tech": ["C#", ".NET", "SQL"],
             "links": {
@@ -45,7 +45,7 @@
         },
         {
             "name": "Save Chat Transcripts in PHP application",
-            "image": "/projects/php-logo.svg",
+            "image": "/Portfolio/projects/php-logo.svg",
             "about": "As a developer supporting legacy products I fixed a chat application so the conversation transcripts would be saved to the database and emailed to the users.The problem was that the query used to save the chat trancripts to the database was wrong, it allowed the chat trancript to escape the query, preventing it from being saved to the database. Using PHP parameter binding, I was encapsulated the data before running the SQL query. This improved security by preventing SQL injection and soved the problem now that the input data would not interfere with the query. The local development was done in a docker container and the code was deployed to a Linux server running a LAMP (Apache, MySQL, & PHP) stack.",
             "tech": ["PHP", "Docker", "MariaDB", "Linux"],
             "links": {},
@@ -53,7 +53,7 @@
         },
         {
             "name": "Banner Changes with Split.io",
-            "image": "/projects/split.jpg",
+            "image": "/Portfolio/projects/split.jpg",
             "about": "As part of the work in a large business, some features and changes need to to be tested out with a portion of the user base before a full rollout. In this ticket I had to change the website logo, banner and favicon and put those changes behind a feature flag. This was achieved using Split.io feature flags where only the users in the list could see the new logo.",
             "tech": ["Split.io", "C#", "Typescript"],
             "links": {
@@ -64,7 +64,7 @@
         },
         {
             "name": "Legacy Application Biweekely Deplyoment",
-            "image": "/projects/php-logo.svg",
+            "image": "/Portfolio/projects/php-logo.svg",
             "about": "As necessary, which is usually twice a month, I lead the deployment of a mojor legacy for my client. This work includes gitlab branching, making sure all the code changes are documented and approved, follow up regression testing on multible environments, and sanity testing after load balancer swich performed by devops.",
             "tech": ["GitLab", "CI/CD"],
             "links": {
@@ -75,7 +75,7 @@
         },
         {
             "name": "Refactor old Flash application to use current technology",
-            "image": "/projects/Linux_logo.webp",
+            "image": "/Portfolio/projects/Linux_logo.webp",
             "about": "As a Developer supporting legacy applications, I provide temporary fixes while the applications are not permanently terminated. In this case, a the sound for a PHP live chat application was not working. It was not working because the app was using Adobe flash player, after converting the files to mp3 and using the html \"audio\" tag the sound was restored.",
             "tech": ["Linux", "HTML"],
             "links": {
@@ -86,7 +86,7 @@
         },
         {
             "name": "Fix feature broken for a single customer",
-            "image": "/projects/shield-large.svg",
+            "image": "/Portfolio/projects/shield-large.svg",
             "about": "My client provides a copy of their whole website in a separated environment so enterprise customers can perform integrations testing. In this ticket that I worked on, a specific page was not working for this customer. After inspecting the back and front end I found the root cause, which was a sting of text formatted in the wrong way, the string came from the customer's personal information and it was interuptiong the Angular code, breaking the page. After finxing the information in Salesforce, the problem was solved.",
             "tech": ["Angular", "Windows Server", "Salesforce"],
             "links": {
@@ -97,7 +97,7 @@
         },
         {
             "name": "Log Classification",
-            "image": "/projects/shield-large.svg",
+            "image": "/Portfolio/projects/shield-large.svg",
             "about": "",
             "tech": ["Python", "Pandas", ""],
             "links": {
@@ -108,7 +108,7 @@
         },
         {
             "name": "Faucetli",
-            "image": "/projects/faucetli.png",
+            "image": "/Portfolio/projects/faucetli.png",
             "about": "🦄 Faucetli is a minimal command-line tool to receive testnet tokens right away from your terminal.",
             "tech": ["Node.js", "Web3.js", "Typescript"],
             "links": {
