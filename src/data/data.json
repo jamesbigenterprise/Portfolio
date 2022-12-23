@@ -1,35 +1,25 @@
 {
     "name": "James Alves",
-    "image": "/circleprofile.jpeg",
+    "image": "/Portfolio/circleprofile.jpeg",
     "profession": "Software Engineer",
     "intro": "With plenty of coorporate experince, I learn fast and contribute to the productivity of the teams I work at.",
     "about": "I am a Software Engineer who loves solve problems and learn new things along the way. With a Bachelors Degree of Software Engineering from Brigham Young University - Idaho, I have been exposed to the full Suftware Development Lyfecyle and I have been using this experience in all projects I have worked.",
     "website": "https://www.avneesh.tech",
     "skills": [
         {
-            "src": "/logos/react.svg",
+            "src": "/Portfolio/logos/csharp-logo.svg",
+            "name": "C#",
+            "link": "https://dotnet.microsoft.com/en-us/languages/csharp"
+        },
+        {
+            "src": "/Portfolio/logos/react.svg",
             "name": "React",
             "link": "https://reactjs.org/"
         },
         {
-            "src": "/logos/nextjs.svg",
-            "name": "Next",
-            "link": "https://nextjs.org/"
-        },
-        {
-            "src": "/logos/typescript.svg",
+            "src": "/Portfolio/logos/typescript.svg",
             "name": "Typescript",
             "link": "https://www.typescriptlang.org/"
-        },
-        {
-            "src": "/logos/thirdweb.svg",
-            "name": "Thirdweb",
-            "link": "https://thirdweb.com"
-        },
-        {
-            "src": "/logos/tailwind.svg",
-            "name": "Tailwind",
-            "link": "https://tailwindcss.com/"
         }
     ],
     "projects": [
@@ -38,9 +28,7 @@
             "image": "/Portfolio/projects/api.png",
             "about": "This refactoring ticket saved the client $30,000 a year in man hours, removing a 2 minute search that Customer Service Agents would do over 45K times a year. There was a specific report in the client website that lacked important information. To solve the problem I researched different internal API's, I found the best API and added its data to the report. This included working the authentication with a bearer token and creating the data structures in C# to represent the API response. I also added error handling in several locations so the backend would handle the situation, were the API were to be unresponsive.",
             "tech": ["C#", ".NET", "SQL"],
-            "links": {
-                "Live": "https://www.irishplayersclub.com/"
-            },
+            "links": {},
             "role": "Software Developer"
         },
         {
@@ -101,19 +89,8 @@
             "about": "",
             "tech": ["Python", "Pandas", ""],
             "links": {
-                "GitHub": "https://github.com/Kira272921/faucetli",
-                "Live": "https://www.producthunt.com/posts/faucetli"
-            },
-            "role": "Co-builder"
-        },
-        {
-            "name": "Faucetli",
-            "image": "/Portfolio/projects/faucetli.png",
-            "about": "🦄 Faucetli is a minimal command-line tool to receive testnet tokens right away from your terminal.",
-            "tech": ["Node.js", "Web3.js", "Typescript"],
-            "links": {
-                "GitHub": "https://github.com/Kira272921/faucetli",
-                "Live": "https://www.producthunt.com/posts/faucetli"
+                "GitHub": "",
+                "Live": ""
             },
             "role": "Co-builder"
         }
@@ -123,52 +100,25 @@
             "value": "James is collaborative! He does great in communicating with his team. James has excellent time management skills. He's an ambitious man that I've seen keep a full schedule.I am very grateful to have worked with James.",
             "name": "Jacob",
             "relation": "Co-worker",
-            "pfp": "https://avatars.githubusercontent.com/u/90365542?v=4",
-            "link": "https://github.com/Kira272921/"
-        },
-        {
-            "value": "I've worked on numerous projects with Avneesh and the flow has always been perfect. Avneesh is a great leader and we also listen to spotify together!",
-            "name": "Anurag",
-            "relation": "Co-builder",
-            "pfp": "https://avatars.githubusercontent.com/u/77309809?v=4",
-            "link": "https://anurag.tech"
+            "pfp": "/Portfolio/circleprofileJacob.jpeg",
+            "link": "https://github.com/KemptCode"
         }
     ],
     "links": [
         {
             "name": "GitHub",
             "icon": "github.svg",
-            "link": "https://github.com/avneesh0612"
-        },
-        {
-            "name": "Twitter",
-            "icon": "twitter.svg",
-            "link": "https://twitter.com/avneesh0612"
-        },
-        {
-            "name": "Hashnode",
-            "icon": "hashnode.svg",
-            "link": "https://blog.avneesh.tech"
-        },
-        {
-            "name": "Showwcase",
-            "icon": "showwcase.svg",
-            "link": "https://www.showwcase.com/avneesh"
-        },
-        {
-            "name": "Instagram",
-            "icon": "instagram.svg",
-            "link": "https://instagram.com/avneesh.codes"
+            "link": "https://github.com/jamesbigenterprise"
         },
         {
             "name": "Mail me",
             "icon": "mail.svg",
-            "link": "mailto:avneeshagarwal0612@gmail.com"
+            "link": "mailto:j7dg1tb8@duck.com"
         },
         {
             "name": "LinkedIn",
             "icon": "linkedin.svg",
-            "link": "https://www.linkedin.com/in/avneesh0612"
+            "link": "https://www.linkedin.com/in/alves-james/"
         }
     ]
 }

@@ -15,10 +15,7 @@ const navOptions = [
         name: 'Skills',
         href: 'skills',
     },
-    {
-        name: 'Blog',
-        href: 'blog',
-    },
+
     {
         name: 'Contact',
         href: 'contact',

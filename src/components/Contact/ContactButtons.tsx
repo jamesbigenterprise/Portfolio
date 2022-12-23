@@ -20,7 +20,7 @@ const ContactButtons: FC<ButtonProps> = ({ link, name, icon, marginLeft }) => {
                 <Image
                     alt={name}
                     height={25}
-                    src={`/logos/${icon}`}
+                    src={`/Portfolio/logos/${icon}`}
                     width={25}
                 />
                 <span className="ml-2">{name}</span>
