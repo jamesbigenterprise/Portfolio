@@ -38,30 +38,32 @@ const Project: FC<IProjectProps> = ({ project }) => {
                 <p className="text-textDark mt-2">
                     <span className="text-neon">Role:</span> {project.role}
                 </p>
+                {project.links.GitHub != undefined &&
+                    project.links.Live != undefined && (
+                        <div className="flex mt-4 space-x-4">
+                            {project.links.GitHub && (
+                                <a
+                                    className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current hover:bg-neon hover:border-neon hover:backdrop-blur-lg border-neon group-hover:text-white hover:text-white text-neon"
+                                    href={project.links.GitHub}
+                                    rel="noreferrer"
+                                    target="_blank"
+                                >
+                                    <GitHubIcon />
 
-                <div className="flex mt-4 space-x-4">
-                    {project.links.GitHub && (
-                        <a
-                            className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current hover:bg-neon hover:border-neon hover:backdrop-blur-lg border-neon group-hover:text-white hover:text-white text-neon"
-                            href={project.links.GitHub}
-                            rel="noreferrer"
-                            target="_blank"
-                        >
-                            <GitHubIcon />
-
-                            <span className="ml-2">GitHub</span>
-                        </a>
+                                    <span className="ml-2">GitHub</span>
+                                </a>
+                            )}
+                            <a
+                                className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerBlue bg-neon border-neon hover:bg-transparent hover:text-neon"
+                                href={project.links.Live}
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <VisitIcon />
+                                <span className="ml-2">Visit</span>
+                            </a>
+                        </div>
                     )}
-                    <a
-                        className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerBlue bg-neon border-neon hover:bg-transparent hover:text-neon"
-                        href={project.links.Live}
-                        rel="noreferrer"
-                        target="_blank"
-                    >
-                        <VisitIcon />
-                        <span className="ml-2">Visit</span>
-                    </a>
-                </div>
             </div>
         </article>
     );

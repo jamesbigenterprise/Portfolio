@@ -6,7 +6,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div
-            className="z-50 flex flex-col items-center justify-center"
+            className="z-50 flex flex-col items-center justify-center fillSpace"
             id="contact"
         >
             <div className="flex items-center justify-center mt-10 space-x-5">

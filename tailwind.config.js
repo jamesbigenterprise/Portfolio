@@ -3,11 +3,11 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                neon: '#52DEE5',
-                text: '#C7D3FF',
-                textDark: '#A1ABBF',
-                bgblue: '#222E50',
-                darkerBlue: '#0A192F',
+                neon: '#519ec9',
+                text: '#f5f5f5',
+                textDark: '#ffffff',
+                bgblue: '#1C455C',
+                darkerBlue: '#0E222E',
             },
             fontFamily: {
                 sora: ['Sora', 'sans-serif'],

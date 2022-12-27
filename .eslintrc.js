@@ -60,12 +60,7 @@ module.exports = {
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 0,
-        'react/jsx-sort-props': [
-            'error',
-            {
-                ignoreCase: true,
-            },
-        ],
+        'react/jsx-sort-props': 'off',
         'prettier/prettier': ['error', prettierConfig],
     },
     settings: {

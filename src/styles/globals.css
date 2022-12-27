@@ -17,13 +17,13 @@ body::-webkit-scrollbar,
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #c7d3ff;
+    background-color: #4094c4;
     border: 3px solid var(--navy);
     border-radius: 10px;
 }
 
 body::-webkit-scrollbar-track {
-    background: #222e50 !important;
+    background: #1c455c !important;
 }
 
 .hideScrollBar::-webkit-scrollbar-thumb {
@@ -45,5 +45,9 @@ body::-webkit-scrollbar-track {
 
 .neon-underline:hover {
     text-decoration: underline;
-    text-decoration-color: #52dee5;
+    text-decoration-color: #519ec9;
+}
+
+.fillSpace {
+    width: 100%;
 }
