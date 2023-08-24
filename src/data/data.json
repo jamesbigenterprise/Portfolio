@@ -1,9 +1,9 @@
 {
-    "name": "James Alves",
-    "image": "/Portfolio/circleprofile.jpeg",
-    "profession": "Software Engineer",
-    "intro": "With plenty of coorporate experince, I learn fast and contribute to the productivity of the teams I work at.",
-    "about": "I am a Software Engineer who loves to solve problems and learn new things along the way. With a Bachelors Degree of Software Engineering from Brigham Young University - Idaho, I have been exposed to the full Suftware Development Lyfecyle and I have been using this experience in all projects I have worked.",
+    "name": "Sergio Silva",
+    "image": "/Portfolio/pic.png",
+    "profession": "Web Developer",
+    "intro": "Seamlessly Fusing Code and Creativity: I Explore the Odyssey of Being a Web Developer Major with a Graphic Design Minor",
+    "about": "Drawing is one of my favorite hobbies. Besides the HTML, CSS, and JS essential programming languages of web development, I also know how to write in Python and C++. I am a proactive learner and a good teacher. One example of that is that I learned how to speak English myself, and started a free English class in my community, having almost 10 active students for 6 months before coming to Rexburg",
     "website": "https://jamesbigenterprise.github.io/Portfolio/",
     "skills": [
         {
@@ -113,17 +113,17 @@
         {
             "name": "GitHub",
             "icon": "github.svg",
-            "link": "https://github.com/jamesbigenterprise"
+            "link": "https://github.com/sergioo29"
         },
         {
             "name": "Mail me",
             "icon": "mail.svg",
-            "link": "mailto:j7dg1tb8@duck.com"
+            "link": "mailto:sergiohds_29@hotmail.com"
         },
         {
             "name": "LinkedIn",
             "icon": "linkedin.svg",
-            "link": "https://www.linkedin.com/in/alves-james/"
+            "link": "https://www.linkedin.com/in/sergio-da-silva-5b7060209/"
         }
     ]
 }
