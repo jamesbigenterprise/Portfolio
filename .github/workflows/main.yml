@@ -31,7 +31,7 @@ jobs:
             - run: touch ./out/.nojekyll
 
             - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4
+              uses: Sergioo29/github-pages-deploy-action@v4
               with:
                   BRANCH: gh-pages
                   folder: out # The folder the action should deploy.
