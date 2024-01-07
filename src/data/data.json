@@ -3,7 +3,7 @@
     "image": "/Portfolio/circleprofile.jpeg",
     "profession": "Software Engineer",
     "intro": "With plenty of coorporate experince, I learn fast and contribute to the productivity of the teams I work at.",
-    "about": "I am a Software Engineer who loves to solve problems and learn new things along the way. With a Bachelors Degree of Software Engineering from Brigham Young University - Idaho, I have been exposed to the full Suftware Development Lyfecyle and I have been using this experience in all projects I have worked.",
+    "about": "I'm a Software Engineer dedicated to problem-solving and continuous learning. Armed with a Software Engineering degree from Brigham Young University - Idaho, I've navigated the full Software Development Lifecycle, bringing that experience to every project. \n I collaborate closely with architects, contributing to the design and implementation of code solutions. Passionate about knowledge-sharing, I enjoy mentoring junior developers to foster shared growth.\nMy commitment to excellence extends to a constant thirst for project insights, ensuring I deliver top-notch results. My journey in software engineering is marked by a love for solving challenges and a commitment to ongoing learning.",
     "website": "https://jamesbigenterprise.github.io/Portfolio/",
     "skills": [
         {
@@ -95,18 +95,25 @@
     ],
     "testimonials": [
         {
-            "value": "James is an incredible problem solver who knows how to pick up on new concepts very quickly, and is impressive when it comes to going above and beyond to get work done. Besides his knowledge and experience as a software engineer, James has amazing work ethics and would be an invaluable asset wherever he is employed.",
-            "name": "Ammon",
-            "relation": "Co-worker",
-            "pfp": "/Portfolio/ammon.jpeg",
-            "link": "https://www.linkedin.com/in/ammon-quarshie/"
+            "value": "I've worked with James for a little over a year now [..] His contribution to his team has been such that they assigned him a lead role, almost sole responsibility over two applications, and continued work on their current customer facing software. [...] I highly recommend James in any Software Engineer capacity.",
+            "name": "Trevor Spielman",
+            "relation": "Manager",
+            "pfp": "/Portfolio/trevorProfile.jpeg",
+            "link": "https://www.linkedin.com/in/trevorspielman"
         },
         {
-            "value": "James is collaborative! He does great in communicating with his team. James has excellent time management skills. He's an ambitious man that I've seen keep a full schedule.I am very grateful to have worked with James.",
-            "name": "Jacob",
+            "value": "James is an exceptional developer who consistently delivers high-quality work. He possesses a keen problem-solving ability. He also possesses excellent analytical skills, allowing him to identify potential issues and optimize code for enhanced performance. He is an excellent team player and handling multiple task along with his development work. And he stays up-to-date with the latest industry trends and is always eager to expand his skill set.",
+            "name": "Sushant Raj",
             "relation": "Co-worker",
-            "pfp": "/Portfolio/circleprofileJacob.jpeg",
-            "link": "https://www.linkedin.com/in/barnes-jacob/"
+            "pfp": "/Portfolio/sushantProfile.jpeg",
+            "link": "https://www.linkedin.com/in/sushant-raj-2a2053a5/"
+        },
+        {
+            "value": "I had the privilege of working with James at Truckstop, where he worked as a Software Developer and I worked as an Integration Specialist. James was consistently one of the go-to developers for the Integrations team due to his expertise and tenacious problem solving. Whenever James got one of our integration tickets assigned to him in Jira, we knew the reported issue would be investigated thoroughly, quickly, and accurately. I always appreciated his friendly disposition and responsiveness, and am confident he'd be an asset to any team.",
+            "name": "Tim Rohweder",
+            "relation": "Co-worker",
+            "pfp": "/Portfolio/timProfile.jpeg",
+            "link": "https://www.linkedin.com/in/tim-rohweder/"
         }
     ],
     "links": [
