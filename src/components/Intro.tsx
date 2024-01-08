@@ -17,7 +17,7 @@ const Intro = () => {
                 {data.name}
             </h1>
             <h2 className="text-4xl text-textDark md:text-6xl">
-                Fueling Frontend Experiences from the Backend.
+                Web Design Maverick with a Passion for Pixels and a Code Wizard in the Making.
             </h2>
             <p className="w-4/5 md:w-3/5 text-textDark">
                 I&rsquo;m a{' '}

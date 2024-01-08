@@ -1,136 +1,63 @@
 {
-    "name": "Sergio",
-    "image": "/Portfolio/circleprofile.jpeg",
-    "profession": "Software Engineer",
-    "intro": "With plenty of coorporate experince, I learn fast and contribute to the productivity of the teams I work at.",
-    "about": "I'm a Software Engineer dedicated to problem-solving and continuous learning. Armed with a Software Engineering degree from Brigham Young University - Idaho, I've navigated the full Software Development Lifecycle, bringing that experience to every project. \n I collaborate closely with architects, contributing to the design and implementation of code solutions. Passionate about knowledge-sharing, I enjoy mentoring junior developers to foster shared growth.\nMy commitment to excellence extends to a constant thirst for project insights, ensuring I deliver top-notch results. My journey in software engineering is marked by a love for solving challenges and a commitment to ongoing learning.",
-    "website": "https://jamesbigenterprise.github.io/Portfolio/",
-    "skills": [
-        {
-            "src": "/Portfolio/logos/NET.svg",
-            "name": ".NET",
-            "link": "https://dotnet.microsoft.com/en-us/"
-        },
-        {
-            "src": "/Portfolio/logos/csharp-logo.svg",
-            "name": "C#",
-            "link": "https://dotnet.microsoft.com/en-us/languages/csharp"
-        },
-        {
-            "src": "/Portfolio/logos/java.svg",
-            "name": "Java",
-            "link": "https://www.java.com/en/"
-        },
-        {
-            "src": "/Portfolio/projects/php-logo.svg",
-            "name": "PHP",
-            "link": "https://www.php.net/"
-        },
-        {
-            "src": "/Portfolio/logos/typescript.svg",
-            "name": "Typescript",
-            "link": "https://www.typescriptlang.org/"
-        }
-    ],
-    "projects": [
-        {
-            "name": "Report Refactoring",
-            "image": "/Portfolio/logos/NET.svg",
-            "about": "This refactoring ticket saved the client $30,000 a year in man hours, removing a 2 minute search that the Customer Service Agents would do over 45K times a year. There was a specific report in the client website that lacked important information. To solve the problem I researched different internal API's, found the best and added its data to the report. This included authentication with a bearer token and creating the data structures in C# to represent the API response. I also added error handling in several locations so the backend would handle the situation, were the API to be unresponsive.",
-            "tech": ["C#", ".NET", "SQL"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Save Chat Transcripts in PHP application",
-            "image": "/Portfolio/projects/php-logo.svg",
-            "about": "As a developer supporting legacy products I fixed a chat application so the conversation transcripts would be saved to the database and emailed to the users.The problem was that the query used to save the chat trancripts to the database was wrong, it allowed the chat trancript to escape the query, preventing it from being saved to the database. Using PHP parameter binding, I encapsulated the data before running the SQL query. This improved security by preventing SQL injection and soved the problem now that the input data would not interfere with the query. The local development was done in a docker container and the code was deployed to a Linux server running a LAMP (Apache, MySQL, & PHP) stack.",
-            "tech": ["PHP", "Docker", "MariaDB", "Linux"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Banner Changes with Split.io",
-            "image": "/Portfolio/projects/split.jpg",
-            "about": "As part of the work in a large business, some features and changes need to to be tested out with a portion of the user base before a full rollout. In this ticket I had to change the website logo, banner and favicon and put those changes behind a feature flag. This was achieved using Split.io feature flags where only the users in the list could see the new logo.",
-            "tech": ["Split.io", "C#", "Typescript"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Legacy Application Biweekely Deplyoment",
-            "image": "/Portfolio/projects/git.png",
-            "about": "As necessary, which is usually twice a month, I lead the deployment of a mojor legacy for my client. This work includes gitlab branching, making sure all the code changes are documented and approved, follow up regression testing on multible environments, and sanity testing after load balancer swich performed by devops.",
-            "tech": ["GitLab", "CI/CD"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Refactor old Flash application to use current technology",
-            "image": "/Portfolio/projects/Linux_logo.webp",
-            "about": "As a Developer supporting legacy applications, I provide temporary fixes while the applications are not permanently terminated. In this case, a the sound for a PHP live chat application was not working. It was not working because the app was using Adobe flash player, after converting the files to mp3 and using the html \"audio\" tag the sound was restored.",
-            "tech": ["Linux", "HTML"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Integrations Bug",
-            "image": "/Portfolio/projects/shield-large.svg",
-            "about": "My client provides a copy of their whole website in a separated environment so enterprise customers can perform integrations testing. In this ticket, an specific page was not working for this customer. After inspecting the back and front end I found the root cause, which was a string of text formatted in the wrong way, the string came from the customer's personal information and it was interrupting the Angular code, breaking the page. After finxing the information in Salesforce, the problem was solved.",
-            "tech": ["Angular", "Windows Server", "Salesforce"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Media Server Android App",
-            "image": "/Portfolio/projects/android.svg",
-            "about": "This project is an alternative to Google Photos or any other cloud storage solution for photos and videos. It includes a server to be set up in an old laptop and an Android app to upload the photos and videos. The goal is to put to use an old computer you may have and to avoid the surveillance and lack of privacy from companies like Google.",
-            "tech": ["Java", "SFTP", "Android"],
-            "links": {
-                "GitHub": "https://github.com/jamesbigenterprise/MediaServer",
-                "Live": "https://www.youtube.com/watch?v=bLOL7dnXrFE"
-            },
-            "role": "Undergrad Student"
-        }
-    ],
-    "testimonials": [
-        {
-            "value": "I've worked with James for a little over a year now [..] His contribution to his team has been such that they assigned him a lead role, almost sole responsibility over two applications, and continued work on their current customer facing software. [...] I highly recommend James in any Software Engineer capacity.",
-            "name": "Trevor Spielman",
-            "relation": "Manager",
-            "pfp": "/Portfolio/trevorProfile.jpeg",
-            "link": "https://www.linkedin.com/in/trevorspielman"
-        },
-        {
-            "value": "James is an exceptional developer who consistently delivers high-quality work. He possesses a keen problem-solving ability. He also possesses excellent analytical skills, allowing him to identify potential issues and optimize code for enhanced performance. He is an excellent team player and handling multiple task along with his development work. And he stays up-to-date with the latest industry trends and is always eager to expand his skill set.",
-            "name": "Sushant Raj",
-            "relation": "Co-worker",
-            "pfp": "/Portfolio/sushantProfile.jpeg",
-            "link": "https://www.linkedin.com/in/sushant-raj-2a2053a5/"
-        },
-        {
-            "value": "I had the privilege of working with James at Truckstop, where he worked as a Software Developer and I worked as an Integration Specialist. James was consistently one of the go-to developers for the Integrations team due to his expertise and tenacious problem solving. Whenever James got one of our integration tickets assigned to him in Jira, we knew the reported issue would be investigated thoroughly, quickly, and accurately. I always appreciated his friendly disposition and responsiveness, and am confident he'd be an asset to any team.",
-            "name": "Tim Rohweder",
-            "relation": "Co-worker",
-            "pfp": "/Portfolio/timProfile.jpeg",
-            "link": "https://www.linkedin.com/in/tim-rohweder/"
-        }
-    ],
-    "links": [
-        {
-            "name": "GitHub",
-            "icon": "github.svg",
-            "link": "https://github.com/jamesbigenterprise"
-        },
-        {
-            "name": "Mail me",
-            "icon": "mail.svg",
-            "link": "mailto:j7dg1tb8@duck.com"
-        },
-        {
-            "name": "LinkedIn",
-            "icon": "linkedin.svg",
-            "link": "https://www.linkedin.com/in/alves-james/"
-        }
-    ]
+  "name": "Sergio da Silva",
+  "image": "/Portfolio/sergioprofile.jpeg",
+  "profession": "Web Designer",
+  "intro": "I am a Web Designer",
+  "about": "My major is Web Design and Development, and my minor is in Graphic Design so I could be even better at designing websites.Drawing is one of my favorite hobbies. Besides the HTML, CSS, and JS essential programming languages of web development, I also know how to write in Python and C++. I am a proactive learner and a good teacher. One example of that is that I learned how to speak English myself, and started a free English class in my community, having almost 10 active students for 6 months before coming to Rexburg.During COVID, I had a home-office internship at FamilySearch. I've created images, blog articles, translated videos, and live streaming for their social media. I also learned about Power BI there. I've created and weekly updated data models about all the FamilySearch Brazil Area reach using Power BI.",
+  "website": "https://sergioo29.github.io/Portfolio/",
+  "skills": [
+    {
+      "src": "/Portfolio/logos/typescript.svg",
+      "name": "Typescript",
+      "link": "https://www.typescriptlang.org/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Report Refactoring",
+      "image": "/Portfolio/logos/NET.svg",
+      "about": "This refactoring ticket saved the client $30,000 a year in man hours, removing a 2 minute search that the Customer Service Agents would do over 45K times a year. There was a specific report in the client website that lacked important information. To solve the problem I researched different internal API's, found the best and added its data to the report. This included authentication with a bearer token and creating the data structures in C# to represent the API response. I also added error handling in several locations so the backend would handle the situation, were the API to be unresponsive.",
+      "tech": [ "C#", ".NET", "SQL" ],
+      "links": {},
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Media Server Android App",
+      "image": "/Portfolio/projects/android.svg",
+      "about": "This project is an alternative to Google Photos or any other cloud storage solution for photos and videos. It includes a server to be set up in an old laptop and an Android app to upload the photos and videos. The goal is to put to use an old computer you may have and to avoid the surveillance and lack of privacy from companies like Google.",
+      "tech": [ "Java", "SFTP", "Android" ],
+      "links": {
+        "GitHub": "https://github.com/jamesbigenterprise/MediaServer",
+        "Live": "https://www.youtube.com/watch?v=bLOL7dnXrFE"
+      },
+      "role": "Undergrad Student"
+    }
+  ],
+  "testimonials": [
+    {
+      "value": "Sergio is a great communicator. I mentored him for one year during the BYU Pathway Worldwide program. His lessons were engaging and instructive. He made good use of humor to maintain the class engaged and we had a good time. On top of that, he is a good graphic designer, I say that based on the work I have seen so far.",
+      "name": "James Alves",
+      "relation": "Mentor",
+      "pfp": "/Portfolio/circleprofile.jpeg",
+      "link": "https://www.linkedin.com/in/alves-james/"
+    }
+   
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "icon": "github.svg",
+      "link": "https://github.com/Sergioo29"
+    },
+    {
+      "name": "Mail me",
+      "icon": "mail.svg",
+      "link": "sergiohds_29@hotmail.com"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin.svg",
+      "link": "https://www.linkedin.com/in/sergio-da-silva-5b7060209/"
+    }
+  ]
 }

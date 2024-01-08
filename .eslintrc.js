@@ -31,14 +31,7 @@ module.exports = {
         curly: 'error',
         'no-lonely-if': 'error',
         'no-unneeded-ternary': 'error',
-        'one-var-declaration-per-line': 'error',
-        quotes: [
-            'error',
-            'single',
-            {
-                allowTemplateLiterals: false,
-                avoidEscape: true,
-            },
+        'one-var-declaration-per-line': 'error'
         ],
 
         'array-callback-return': 'off',
