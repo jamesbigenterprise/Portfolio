@@ -3,10 +3,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                neon: '#519ec9',
-                text: '#f5f5f5',
-                textDark: '#ffffff',
-                bgblue: '#1C455C',
+                neon: '#FF8758',
+                text: '#ACC1CC',
+                textDark: '#9CA6AF',
+                bgblue: '#2B343A',
                 darkerBlue: '#0E222E',
             },
             fontFamily: {

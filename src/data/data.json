@@ -1,136 +1,197 @@
 {
-    "name": "James Alves",
-    "image": "/Portfolio/circleprofile.jpeg",
-    "profession": "Software Engineer",
-    "intro": "With plenty of coorporate experince, I learn fast and contribute to the productivity of the teams I work at.",
-    "about": "I'm a Software Engineer dedicated to problem-solving and continuous learning. Armed with a Software Engineering degree from Brigham Young University - Idaho, I've navigated the full Software Development Lifecycle, bringing that experience to every project. \n I collaborate closely with architects, contributing to the design and implementation of code solutions. Passionate about knowledge-sharing, I enjoy mentoring junior developers to foster shared growth.\nMy commitment to excellence extends to a constant thirst for project insights, ensuring I deliver top-notch results. My journey in software engineering is marked by a love for solving challenges and a commitment to ongoing learning.",
-    "website": "https://jamesbigenterprise.github.io/Portfolio/",
+    "name": "Sergio da Silva",
+    "image": "/Portfolio/circleprofile.jpg",
+    "profession": "Web Designer",
+    "intro": "My focus is on the front end.",
+    "about": "A Brazilian with a major in Web Development, and minor in Graphic Design to better craft and build websites. Drawing is one of my favorite hobbies. Besides the HTML, CSS, and JS essential programming languages of web development, I also know how to write in Python and C++. I am a proactive learner and a good teacher. One example of that is that I learned how to speak English myself. I even started a free English class in my community, having almost 10 active students for 6 months before coming to Idaho. During COVID, I had a home-office internship at FamilySearch. I've created images, blog articles, translated videos, and live streamed for their social media. I also learned about Power BI there. I've created and weekly updated data models about all the FamilySearch Brazil Area reach using Power BI.",
+    "website": "https://sergioo29.github.io/Portfolio/",
     "skills": [
         {
-            "src": "/Portfolio/logos/NET.svg",
-            "name": ".NET",
-            "link": "https://dotnet.microsoft.com/en-us/"
+            "src": "/Portfolio/logos/html.png",
+            "name": "HTML",
+            "link": "https://html.spec.whatwg.org/"
         },
         {
-            "src": "/Portfolio/logos/csharp-logo.svg",
-            "name": "C#",
-            "link": "https://dotnet.microsoft.com/en-us/languages/csharp"
+            "src": "/Portfolio/logos/css.png",
+            "name": "CSS",
+            "link": "https://css3.com/"
         },
         {
-            "src": "/Portfolio/logos/java.svg",
-            "name": "Java",
-            "link": "https://www.java.com/en/"
+            "src": "/Portfolio/logos/js2.png",
+            "name": "JS",
+            "link": "https://www.javascript.com/"
         },
         {
-            "src": "/Portfolio/projects/php-logo.svg",
-            "name": "PHP",
-            "link": "https://www.php.net/"
+            "src": "/Portfolio/logos/ps.png",
+            "name": "Photoshop",
+            "link": "https://www.adobe.com/products/photoshop.html"
         },
         {
-            "src": "/Portfolio/logos/typescript.svg",
+            "src": "/Portfolio/logos/ai.png",
+            "name": "Illustrator",
+            "link": "https://www.adobe.com/products/illustrator.html"
+        },
+        {
+            "src": "/Portfolio/logos/ts.svg",
             "name": "Typescript",
             "link": "https://www.typescriptlang.org/"
+        },
+        {
+            "src": "/Portfolio/logos/sql.png",
+            "name": "SQL",
+            "link": "https://www.mysql.com/"
         }
     ],
     "projects": [
         {
-            "name": "Report Refactoring",
-            "image": "/Portfolio/logos/NET.svg",
-            "about": "This refactoring ticket saved the client $30,000 a year in man hours, removing a 2 minute search that the Customer Service Agents would do over 45K times a year. There was a specific report in the client website that lacked important information. To solve the problem I researched different internal API's, found the best and added its data to the report. This included authentication with a bearer token and creating the data structures in C# to represent the API response. I also added error handling in several locations so the backend would handle the situation, were the API to be unresponsive.",
-            "tech": ["C#", ".NET", "SQL"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Save Chat Transcripts in PHP application",
-            "image": "/Portfolio/projects/php-logo.svg",
-            "about": "As a developer supporting legacy products I fixed a chat application so the conversation transcripts would be saved to the database and emailed to the users.The problem was that the query used to save the chat trancripts to the database was wrong, it allowed the chat trancript to escape the query, preventing it from being saved to the database. Using PHP parameter binding, I encapsulated the data before running the SQL query. This improved security by preventing SQL injection and soved the problem now that the input data would not interfere with the query. The local development was done in a docker container and the code was deployed to a Linux server running a LAMP (Apache, MySQL, & PHP) stack.",
-            "tech": ["PHP", "Docker", "MariaDB", "Linux"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Banner Changes with Split.io",
-            "image": "/Portfolio/projects/split.jpg",
-            "about": "As part of the work in a large business, some features and changes need to to be tested out with a portion of the user base before a full rollout. In this ticket I had to change the website logo, banner and favicon and put those changes behind a feature flag. This was achieved using Split.io feature flags where only the users in the list could see the new logo.",
-            "tech": ["Split.io", "C#", "Typescript"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Legacy Application Biweekely Deplyoment",
-            "image": "/Portfolio/projects/git.png",
-            "about": "As necessary, which is usually twice a month, I lead the deployment of a mojor legacy for my client. This work includes gitlab branching, making sure all the code changes are documented and approved, follow up regression testing on multible environments, and sanity testing after load balancer swich performed by devops.",
-            "tech": ["GitLab", "CI/CD"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Refactor old Flash application to use current technology",
-            "image": "/Portfolio/projects/Linux_logo.webp",
-            "about": "As a Developer supporting legacy applications, I provide temporary fixes while the applications are not permanently terminated. In this case, a the sound for a PHP live chat application was not working. It was not working because the app was using Adobe flash player, after converting the files to mp3 and using the html \"audio\" tag the sound was restored.",
-            "tech": ["Linux", "HTML"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Integrations Bug",
-            "image": "/Portfolio/projects/shield-large.svg",
-            "about": "My client provides a copy of their whole website in a separated environment so enterprise customers can perform integrations testing. In this ticket, an specific page was not working for this customer. After inspecting the back and front end I found the root cause, which was a string of text formatted in the wrong way, the string came from the customer's personal information and it was interrupting the Angular code, breaking the page. After finxing the information in Salesforce, the problem was solved.",
-            "tech": ["Angular", "Windows Server", "Salesforce"],
-            "links": {},
-            "role": "Software Engineer"
-        },
-        {
-            "name": "Media Server Android App",
-            "image": "/Portfolio/projects/android.svg",
-            "about": "This project is an alternative to Google Photos or any other cloud storage solution for photos and videos. It includes a server to be set up in an old laptop and an Android app to upload the photos and videos. The goal is to put to use an old computer you may have and to avoid the surveillance and lack of privacy from companies like Google.",
-            "tech": ["Java", "SFTP", "Android"],
+            "name": "Moonlander",
+            "image": "/Portfolio/logos/C++.png",
+            "about": "Simple game made using In this C++-based Moonlander game, players control a lunar module, maneuvering it to land safely on the moon's surface using basic thrust controls. With each level the terrain is randomly drawn, challenging players' precision and skill.",
+            "tech": ["C++"],
             "links": {
-                "GitHub": "https://github.com/jamesbigenterprise/MediaServer",
-                "Live": "https://www.youtube.com/watch?v=bLOL7dnXrFE"
+                "GitHub": "https://github.com/Sergioo29/cs165/tree/main/assign06and7%20(moonLander)",
+                "Live": "https://sergioo29.github.io/cs165/"
+            },
+            "role": "Undergrad Student"
+        },
+        {
+            "name": "List Sorter",
+            "image": "/Portfolio/logos/python.png",
+            "about": "Among all the Python programs I have created, this one sticks out as one of the most interesting and useful ones. It is a simple sorter that promps for a .json file and display a list sorted alphabeticaly. You can also watch the video to see me testing it.",
+            "tech": ["Python"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/cs101/blob/main/sorter.py",
+                "Live": "https://www.youtube.com/watch?v=Ytf5H4Q9194"
+            },
+            "role": "Undergrad Student"
+        },
+        {
+            "name": "Element Mixing App",
+            "image": "/Portfolio/logos/js.png",
+            "about": "My first JavaScript project. The app have those four icons representing the four basic elements. You can click on two of them to see what thee mix would result in. For another test you need to refresh the page.",
+            "tech": ["JavaScript"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/cse121/blob/main/week6/app.js",
+                "Live": "https://sergioo29.github.io/cse121/week6/app.html"
+            },
+            "role": "Undergrad Student"
+        },
+        {
+            "name": "Water Rafting",
+            "image": "/Portfolio/projects/raft.png",
+            "about": "My first experience building a full website. This website uses almost no JavaScript, so is more of a HTML and CSS only website.",
+            "tech": ["HTML", "CSS"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/wdd130/blob/main/wwr/index.html",
+                "Live": "https://sergioo29.github.io/wdd130/wwr/index.html"
+            },
+            "role": "Undergrad Student"
+        },
+        {
+            "name": "Chamber of Commerce",
+            "image": "/Portfolio/projects/chamber.png",
+            "about": "A ficticious chamber of commerce created by me aimed toward the Rexburd-Idaho population. Now JavaScript was used more and an API for weather was implemented.",
+            "tech": ["HTML", "CSS", "JavaScript", "API"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/wdd230/blob/main/chamber/index.html",
+                "Live": "https://sergioo29.github.io/wdd230/chamber/"
+            },
+            "role": "Undergrad Student"
+        },
+        {
+            "name": "Inn & Suite",
+            "image": "/Portfolio/projects/api.png",
+            "about": "A ficticious inn & suite company created by me aimed toward the people that wanted to visit Mormon Temples around the country. Again with JavaScript added and an API for weather implemented.",
+            "tech": ["HTML", "CSS", "JavaScript", "API"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/wdd230/blob/main/final/index.html",
+                "Live": "https://sergioo29.github.io/wdd230/final/"
+            },
+            "role": "Undergrad Student"
+        },
+        {
+            "name": "Story Project",
+            "image": "/Portfolio/projects/psp.png",
+            "about": "A website containing a story I wrote. All the images contained in this website were also designed by me.",
+            "tech": ["HTML", "CSS", "Photoshop", "Graphic Design"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/wdd130/blob/main/psp/index.html",
+                "Live": "https://sergioo29.github.io/wdd130/psp/index.html"
+            },
+            "role": "Writer and Designer"
+        },
+        {
+            "name": "FamilySearch Assets",
+            "image": "/Portfolio/projects/fs.png",
+            "about": "During my internship at FamilySearch I created more than 50 artworks that were used in the FamilySearch Brazil social media. At least 2 of them had a interaction spike, meaning that the likes and comments were way higher for the post that used them. I also participated in an event called RootsTech. I translated images to Portuguese, added captions to videos, and even recored my own tutorial. The video is added here.",
+            "tech": ["Graphic Design", "Photoshop", "Social Media"],
+            "links": {
+                "GitHub": "https://sergioo29.github.io/artworks/",
+                "Live": "https://www.youtube.com/watch?v=VV-L5SX62jY"
+            },
+            "role": "Intern"
+        },
+        {
+            "name": "Artwork Creations",
+            "image": "/Portfolio/projects/larica.png",
+            "about": "I draw both on paper and digitally. You can find some of my favorite creations in the page I linked below.",
+            "tech": ["Graphic Design", "Photoshop", "Illustrator"],
+            "links": {
+                "GitHub": "https://github.com/Sergioo29/artworks",
+                "Live": "https://sergioo29.github.io/artworks/"
+            },
+            "role": "Graphic Designer"
+        },
+        {
+            "name": "Hardware Handling",
+            "image": "/Portfolio/projects/arduino.png",
+            "about": "I have basic knowledge of hardware as well. From building my own pc to using Arduino and breadboards, I can make hardware work with little instruction. I linked a video of me showcasing an Arduino application I made.",
+            "tech": ["Hardware", "Arduino", "Breadboard"],
+            "links": {
+                "GitHub": "https://sergioo29.github.io/ecen106/",
+                "Live": "https://www.youtube.com/watch?v=_x6MhQm6Dbw"
             },
             "role": "Undergrad Student"
         }
     ],
     "testimonials": [
         {
-            "value": "I've worked with James for a little over a year now [..] His contribution to his team has been such that they assigned him a lead role, almost sole responsibility over two applications, and continued work on their current customer facing software. [...] I highly recommend James in any Software Engineer capacity.",
-            "name": "Trevor Spielman",
+            "value": "I had the pleasure of working with Sergio da Silva for two years, during which time he served as a Technology Specialist on my team. [...] I still recall my first interaction with Sergio. His bright smile lit up the room, and within moments of sitting down to talk, I knew he was the perfect fit for our team. [...] Sergio met each task with an upbeat attitude, showing personal growth and leaving a lasting impact on our projects. [...] With skills in project management, HTML & CSS, Canvas, Kaltura, he handled various projects for our curriculum designers. His work included creating new content, fixing broken content, and collaborating to enhance our online courses. [...] Sergio is more than just a talented engineer; he’s a force of good. His positive energy and solid work ethic make him an invaluable asset to any team [...]. I wholeheartedly recommend Sergio for any future role he pursues. He will undoubtedly bring his contagious enthusiasm and technical expertise to his next opportunity, continuing to make a positive impact wherever he goes.",
+            "name": "Corey Moore",
             "relation": "Manager",
-            "pfp": "/Portfolio/trevorProfile.jpeg",
-            "link": "https://www.linkedin.com/in/trevorspielman"
+            "pfp": "/Portfolio/mooreprofile.jpeg",
+            "link": "https://www.linkedin.com/in/cvm01/"
         },
         {
-            "value": "James is an exceptional developer who consistently delivers high-quality work. He possesses a keen problem-solving ability. He also possesses excellent analytical skills, allowing him to identify potential issues and optimize code for enhanced performance. He is an excellent team player and handling multiple task along with his development work. And he stays up-to-date with the latest industry trends and is always eager to expand his skill set.",
-            "name": "Sushant Raj",
-            "relation": "Co-worker",
-            "pfp": "/Portfolio/sushantProfile.jpeg",
-            "link": "https://www.linkedin.com/in/sushant-raj-2a2053a5/"
+            "value": "I am delighted to recommend Sergio da Silva, who has been a part of our online campus design team. Despite English not being his first language, Sergio's adaptability and quick learning were evident as he excelled in all communication tasks assigned to him, showcasing exceptional proficiency. Sergio was crucial in designing open educational resource textbooks for several classes. His creativity and attention to detail significantly enhanced the quality of these resources. Sergio's ability to troubleshoot and resolve technical issues, including complex problems with campus page coding, was invaluable. One of Sergio's most commendable traits is his reliability and diligence. I highly recommend Sergio for any task or position he pursues. If you have any questions, please contact me. (PalmerJen@byui. edu | (208) 496 1898)",
+            "name": "Jennifer Palmer",
+            "relation": "Manager",
+            "pfp": "/Portfolio/palmerprofile.jpg",
+            "link": "https://www.linkedin.com/in/jennifer-palmer-39297a67/"
         },
         {
-            "value": "I had the privilege of working with James at Truckstop, where he worked as a Software Developer and I worked as an Integration Specialist. James was consistently one of the go-to developers for the Integrations team due to his expertise and tenacious problem solving. Whenever James got one of our integration tickets assigned to him in Jira, we knew the reported issue would be investigated thoroughly, quickly, and accurately. I always appreciated his friendly disposition and responsiveness, and am confident he'd be an asset to any team.",
-            "name": "Tim Rohweder",
-            "relation": "Co-worker",
-            "pfp": "/Portfolio/timProfile.jpeg",
-            "link": "https://www.linkedin.com/in/tim-rohweder/"
+            "value": "Sergio is a great communicator. I mentored him for one year during the BYU Pathway Worldwide program. His lessons were engaging and instructive. He made good use of humor to maintain the class engaged and we had a good time. On top of that, he is a good graphic designer, I say that based on the work I have seen so far.",
+            "name": "James Alves",
+            "relation": "Mentor",
+            "pfp": "/Portfolio/jamesprofile.jpg",
+            "link": "https://www.linkedin.com/in/alves-james/"
         }
     ],
     "links": [
         {
             "name": "GitHub",
             "icon": "github.svg",
-            "link": "https://github.com/jamesbigenterprise"
+            "link": "https://github.com/Sergioo29"
         },
         {
             "name": "Mail me",
             "icon": "mail.svg",
-            "link": "mailto:j7dg1tb8@duck.com"
+            "link": "mailto:sergio.hds@outlook.com"
         },
         {
             "name": "LinkedIn",
             "icon": "linkedin.svg",
-            "link": "https://www.linkedin.com/in/alves-james/"
+            "link": "https://www.linkedin.com/in/sergio-da-silva-5b7060209/"
         }
     ]
 }

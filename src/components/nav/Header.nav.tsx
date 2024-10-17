@@ -37,7 +37,7 @@ const Header = () => {
                 offset={-100}
                 smooth={true}
                 spy={true}
-                title="JamesAlves"
+                title="SergioSilva"
                 to="intro"
             >
                 <Logo className="cursor-pointer" />
